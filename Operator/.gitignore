@@ -34,7 +34,7 @@
 *.avi
 
 #忽略生成的可执行文件
-run.o
+/run.o
 #忽略掉 .vscode 文件夹
 /.vscode/ipch/
 /.vscode/settings.json

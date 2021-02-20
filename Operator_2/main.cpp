@@ -3,12 +3,19 @@
 using namespace std;
 
 class Person {
+  friend ostream &operator<<(ostream &cout, Person &p);
+
  public:
+  Person(int a, int b) {
+    m_A = a;
+    m_B = b;
+  }
   //利用成员函数重载 左移运算符 <<，达不到目标的简化版本：cout << p;
   //因此不会利用成员函数重载左移运算符，无法实现 cout 在左侧
   /* void operator<<(Person &p){
   } */
 
+ private:
   int m_A;
   int m_B;
 };
@@ -21,9 +28,7 @@ ostream &operator<<(ostream &cout, Person &p) {
 }
 
 void test01() {
-  Person p;
-  p.m_A = 10;
-  p.m_B = 10;
+  Person p(10, 10);
 
   cout << p << endl;
 }

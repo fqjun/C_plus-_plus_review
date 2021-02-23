@@ -48,6 +48,12 @@ void test01() {
 
 int main() {
   test01();
+
+  int *abc = new int[10];
+  // cout << **abc << endl;
+  cout << *abc << endl;
+  cout << abc << endl;
+
   system("pause");
   return 0;
 }

@@ -32,6 +32,12 @@ class workerManager {
   // 保存内容
   void save();
 
+  //统计文件中人数
+  int get_EmpNum();
+
+  //初始化员工
+  void init_Emp();
+
  private:
   // 记录文件中的人数个数
   int m_EmpNum;

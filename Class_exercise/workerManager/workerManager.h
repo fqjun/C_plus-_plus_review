@@ -37,4 +37,6 @@ class workerManager {
   int m_EmpNum;
   // 员工数组的指针
   Worker** m_EmpArray;
+  // 判断文件是否为空 标志
+  bool m_FileIsEmp;
 };

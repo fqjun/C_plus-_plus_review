@@ -2,6 +2,7 @@
 
 workerManager::workerManager() {
   // 初始化属性
+
   // 初始化人数
   this->m_EmpNum = 0;
   // 初始化数组指针
@@ -89,6 +90,7 @@ void workerManager::addEmp() {
 
       // 将创建的职工指针，保存到数组中
       newSpace[this->m_EmpNum + i] = worker;
+      cout << "newspace :" << newSpace[0] << endl;
     }
 
     // 释放原有的空间
@@ -98,12 +100,14 @@ void workerManager::addEmp() {
     this->m_EmpArray = newSpace;
 
     // 更新完后释放现有空间
-    delete[] newSpace;
+    // delete[]
+    // newSpace;//不能拥有这句，否则会导致newSpace内保存的空间被释放掉，导致指针丢失,要么放在最后
 
     // 更新新的职工人数
     this->m_EmpNum = newSize;
 
     // 成功添加后保存到文件中
+
     this->save();
 
     // 提示添加成功

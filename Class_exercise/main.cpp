@@ -39,12 +39,16 @@ int main() {
         worker->addEmp();
         break;
       case 2:  //显示职工
+        worker->show_Emp();
         break;
       case 3:  //删除员工
+        worker->del_Emp();
         break;
       case 4:  //修改信息
+        worker->mod_Emp();
         break;
       case 5:  //查找职工
+        worker->find_Emp();
         break;
       case 6:  //编号排序
         break;

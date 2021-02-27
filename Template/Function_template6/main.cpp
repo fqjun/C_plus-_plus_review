@@ -4,6 +4,7 @@ using namespace std;
 
 // 模板的局限性
 //模板并不是万能的，有些特定数据类型，需要用具体化的方式做特殊实现
+//学习模板是为了会使用 STL 中的模板
 
 class Person {
  public:

@@ -6,6 +6,7 @@ using namespace std;
 
 // deque 容器
 
+// 只读状态，利用只读迭代器才能查看
 void printDeque(const deque<int>& d) {
   for (deque<int>::const_iterator it = d.begin(); it < d.end(); it++) {
     cout << *it << " ";

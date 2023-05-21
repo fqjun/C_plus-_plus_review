@@ -1,0 +1,23 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#ff9e33",
+    "activityBar.background": "#ff9e33",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#008043",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#ff9e33",
+    "statusBar.background": "#ff8600",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#cc6b00",
+    "statusBarItem.remoteBackground": "#ff8600",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#ff8600",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#ff860099",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#ff8600",
+  "cmake.sourceDirectory": "/home/jun/workspace/C_plus-_plus_review/hello_world"
+}
